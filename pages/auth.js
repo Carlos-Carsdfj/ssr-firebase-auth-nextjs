@@ -13,6 +13,10 @@ const firebaseAuthConfig = {
       provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
       requireDisplayName: false,
     },
+    {
+      provider: firebase.auth.GithubAuthProvider.PROVIDER_ID,
+      requireDisplayName: false,
+    },
   ],
   signInSuccessUrl: '/',
   credentialHelper: 'none',
