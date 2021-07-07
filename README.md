@@ -15,7 +15,6 @@ el  client-side-rendering como para serve-side-rendering.
 
 ### Dependencias o librerías
 
-- **Framer motion**: librería de efectos de movimiento o transición  para React
 
 - **Firebase**: Es una plataforma en la nube que sirve para facilitar la creación de app 
 		para trabajar adoptando un modelo de ejecución serverless en el que 
