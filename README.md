@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+> Este app fue creada siguiendo  un curso publicado por Midudev , échale un ojo -> [Midudev](https://www.youtube.com/watch?v=W5y79Je-Rfs&t=2620s)...
 
-## Getting Started
+### Descripción del Proyecto
+Un App simple enfocado a  probar el funcionamiento de  la librería next-firebase-auth,
+librería que de una forma mas simple la autenticación en Firebase usando token  tanto para
+el  client-side-rendering como para serve-side-rendering.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Tecnología base del proyecto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Lenguaje**: Javascript (con extensiones de lenguaje jsx, recomendado para usar con React)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- **Framework**:   [Next.js](https://nextjs.org)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Dependencias o librerías
 
-## Learn More
+- **Framer motion**: librería de efectos de movimiento o transición  para React
 
-To learn more about Next.js, take a look at the following resources:
+- **Firebase**: Es una plataforma en la nube que sirve para facilitar la creación de app 
+		para trabajar adoptando un modelo de ejecución serverless en el que 
+		nos  permite alojar  una base de datos en la nube  ademas de facilitar la 
+		autentificación de usuarios en nuestra aplicación con diversos métodos ( Email, Google, 		Githubt,  etc) .
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Next-firebase-auth**: Librería que facilita la la administración de autentificación  de usuario en Next.js
+		usando las diversas estrategias que Next.js puede ofrecer,
+		se puede administrar token del lado del servidor o del cliente,
+		y se enfoca en una autentificación y verificación  segura  y de  ofrecernos  la
+		 la  posibilidad de administrar las cookies usados de parte del cliente. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **React-firebaseui**:  Proporciona componentes que maneja un flujo de  UI  para iniciar sesión ,
+		nos ayuda a no tener que construir desde cero dicho sistema de interfaz de usuario ,
+		esta construida sobre  firebase-auth. 
