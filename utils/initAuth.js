@@ -1,5 +1,5 @@
 import { init } from 'next-firebase-auth'
-
+//Configuraciones necesarias para poder usar next-firebase-auth
 
 const initAuth = () =>{
 
@@ -32,6 +32,7 @@ const initAuth = () =>{
         process.env.COOKIE_SECRET_PREVIOUS,
       ],
       httpOnly: true,
+      //tiempo que durara la sesion del token debera ser menos de 2 semanas 
       maxAge: 12 * 60 * 60 * 24 * 1000, // twelve days
       overwrite: true,
       path: '/',
@@ -43,5 +44,5 @@ const initAuth = () =>{
   })
 
 }
-
+//Se iniciar posteriormente desde la api 
 export default initAuth
